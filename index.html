@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet"  media="screen and (max-width:530px)" href="phone.css">
+</head>     
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Gallery</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id ="home">
+        <div class="main">
+            <h1 class = "headings">I AM <br> SUNIL WAGH </h1>
+            <button class="btn">
+                <a href="https://www.linkedin.com/in/sunil-wagh-bb155088">My Linkedin</a>
+            </button>
+        </div>
+    </section>
+
+    <section id="about">            
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+
+           <img src="/assets/mainsmall.jpg" alt=""> 
+        <div id="intro">
+            <h2>Hello!<br> I'm Sunil</h2>
+           <p> I am an Indian chef, specialized in <b>North-Indian and  Various Indian Regional Cuisines</b>, as well as in <b>Arabic, Italian and Continental Cuisines</b>.</p>
+
+           <p> From childhood, I loved food. As a kid who loved his mother's food, I was always curious about how I could create something beautiful and tasty like her.
+            This curiosity, morphed into a spark to grow and learn, and soon became my passion.</p>
+            
+            <p>I have worked with amazing and reputable organizations and personalities like <b>Sanjeev Kapoor's Khana Khazana</b>, <b>The Marco Polo Hotel Dubai(that had an award-winning restaurant
+            : The Bombay)</b> and <b>The Oberoi Hotel Mumbai</b>. I have catered <b>Indian Cuisines</b> for various events like <b>Destination Weddings</b> at <b>Ritz-Carlton Abu Dhabi</b>, 
+            <b>Lunch for the German President</b> and <b>International Cricket
+            Matches</b>.</p>
+
+            <p>
+                I have been involved in preopening of <b>Restaurants, Food Courts, developing the recipes of Indian cuisines, pickles, chutneys, RTE & RTC food, Shahi Thaili Menus for 
+                Singapore Airlines. I have been organising Food Festivals, Theme Menus for a variety of Restaurants</b> during my tenure.
+            </p>
+            
+            <p>When I am not in the kitchen, you can find me listening to slow music and reading a book. 
+            </p>
+            
+        </div>
+        <form method="get" action="/assets/CV.docx">
+            <button type="submit" class="btn-2">See My CV</button>
+         </form>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">GALLERY</h1>
+        <div class="gallery">
+            <img src="./assets/1.jpg" alt="" title="Biryani"/>
+            <img src="./assets/2.jpg" alt="" title="Kadhai Mutton"/>
+            <img src="./assets/3.jpg" alt="" title="Pasta Napolitana"/>
+            <img src="./assets/4.jpg" alt="" title="Greek Salad"/>
+            <img src="assets/5.JPG" alt="" title="WHAT'S ON AWARDS 2013 -  Favourite Chinese Restaurant"/>
+            <img src="assets/6.jpg" alt="" title="Indian Theme Dinner Buffet"/>
+            <img src="assets/7.jpg" alt="" title="Spice Display for Indian Theme Buffet"/>
+            <img src="assets/8.jpeg" alt="" title="Traditional Arabic Theme Buffet"/>
+            <img src="assets/9.jpeg" alt="" title="Traditional Arabic Theme Salads"/>
+            <img src="assets/9.jpg" alt="" title="Tandoori Non-Veg Skewers with Butter-Naan"/>
+            <img src="assets/10.jpg" alt="" title="Tandoori Lobster"/>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="https://formsubmit.co/chefwagh2022@gmail.com" method="POST" class= "form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+            <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+            <input type="submit" value="SEND" id="send">
+            </form>
+    </section>
+
+</body>
+</html>
