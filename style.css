@@ -244,3 +244,11 @@ animation: blinker 0.6s linear infinite;
    50% {
     opacity: 0;
         }
+#credits{
+	    display:flex;
+	    flex-direction:column;
+	    background-color:rgba(0,0,0,0.5);
+	}
+#credits p{
+	self-align:center
+	}
