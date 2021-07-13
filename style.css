@@ -121,7 +121,8 @@ html{
 p{
     line-height: 32px;   /* within paragraph */
     margin-bottom: 30px; /* between paragraphs */
-    font-family: 'Lato', sans-serif;
+    font-family: 'Spectral', serif;;
+    font-size:1.7rem
   }
 #pic{
     display: flex;
@@ -244,11 +245,27 @@ animation: blinker 0.6s linear infinite;
    50% {
     opacity: 0;
         }
+    }
 #credits{
 	    display:flex;
 	    flex-direction:column;
 	    background-color:rgba(0,0,0,0.5);
 	}
 #credits p{
-	self-align:center
+	align-self:center;
+    line-height: normal;
+    margin-bottom: 0rem;
+    font-family: 'Spectral', serif;;
+    font-size:2rem
 	}
+    
+#credits a{
+    text-decoration: none;
+    color:silver;
+    background-color: snow;
+}
+#credits a:hover{
+    text-decoration: none;
+    color:snow;
+    background-color: black;
+}

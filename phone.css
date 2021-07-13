@@ -45,3 +45,16 @@
 #send{
     width:20%
 }
+p{
+    line-height: 32px;   /* within paragraph */
+    margin-bottom: 30px; /* between paragraphs */
+    font-family: 'Spectral', serif;;
+    font-size:1rem
+  }
+  #credits p{
+	align-self:center;
+    line-height: normal;
+    margin-bottom: 0rem;
+    font-family: 'Spectral', serif;;
+    font-size:1.5rem
+	}  
