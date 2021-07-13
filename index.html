@@ -100,6 +100,15 @@
     <section id="credits">
         <p>Credits: <a href="http://www.iconsmind.com/" target="_blank">Icons</a></p>
         </section>
-
+<div class="spinner-wrapper">
+    <div class="spinner"></div>
+</div>
+<script>
+    let spinnerWrapper = document.querySelector(".spinner-wrapper");
+    window.addEventListener('load',function(){
+        spinnerWrapper.style.display = "none";
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+    })
+</script>
 </body>
 </html>
