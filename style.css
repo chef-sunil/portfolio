@@ -281,17 +281,17 @@ animation: blinker 0.6s linear infinite;
 	    background-color:rgba(0,0,0,0.5);
 	}
 #credits p{
-	align-self:center;
+	text-align:center;
     line-height: normal;
     margin-bottom: 0rem;
     font-family: 'Spectral', serif;;
-    font-size:2rem
+    font-size:2rem;
+    color:blanchedalmond
 	}
     
 #credits a{
     text-decoration: none;
     color:silver;
-    background-color: snow;
 }
 #credits a:hover{
     text-decoration: none;
@@ -350,3 +350,6 @@ animation: blinker 0.6s linear infinite;
     }
 
 }
+/* .comma{
+    background-color: white;
+} */
