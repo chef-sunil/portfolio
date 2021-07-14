@@ -121,8 +121,8 @@ html{
 p{
     line-height: 32px;   /* within paragraph */
     margin-bottom: 30px; /* between paragraphs */
-    font-family: 'Spectral', serif;;
-    font-size:1.7rem
+    font-family: 'Spectral', serif;
+    font-size:1.3rem;
   }
 #pic{
     display: flex;
