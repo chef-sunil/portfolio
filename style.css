@@ -53,8 +53,8 @@ html{
     position:absolute;
     top:0;
     right:0;
-    background: url('assets/main.jpg') no-repeat center center/cover ;
-    background-position: top;
+    background: url('assets/main.jpg') no-repeat center center/cover #191919 ;
+    background-position: left;
     background-size: auto ;
     height:900px;
     width:100%;
@@ -68,17 +68,42 @@ html{
     /* border:1px solid white; */
     align-items:center;
     position:absolute;
-    top:30%;
-    left:30%;
+    right:15%
 
 
 
 }
 .headings{
-    font-family: century;
-    font-size:3rem;
-    text-align:center;
-    margin:40px 0px;
+    font-family: Raleway , sans-serif;
+    font-size:4rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+    margin: auto 0;
+    border-right: 2px solid rgba(255,255,255,.75);
+    position: relative;
+    top: 50%;  
+}
+.line-1{
+
+    top: 50%;  
+    width: 24em;
+ 
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 .headings-1{
     font-family: 'Josefin Sans', sans-serif;
@@ -109,6 +134,7 @@ html{
     background-color: white;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight:bold;
+    
 }
 /* About Section */
 #about{
@@ -117,6 +143,7 @@ html{
     box-sizing: border-box;
     padding:20px;
     margin-bottom:50px;
+    
 }
 p{
     line-height: 32px;   /* within paragraph */
@@ -183,8 +210,10 @@ p{
     margin:10px;
 }
 .gallery img:hover{
-    visibility: visible;
-    opacity: 0.7; 
+    zoom: normal;
+    box-shadow: 0 10px 20px rgba(255,255,255, .3), 10px 6px 6px rgba(255,255,255, .6),5px 12px 6px rgba(255,255,255, .9);
+    width:550px;
+    height:550px;
     
 }
 .hover-text { 

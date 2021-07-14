@@ -30,6 +30,13 @@
     height:360px;
     margin:10px;
 }
+.gallery img:hover{
+    zoom: normal;
+    box-shadow: 0 10px 20px rgba(255,255,255, .3), 10px 6px 6px rgba(255,255,255, .6),5px 12px 6px rgba(255,255,255, .9);
+    width:410px;
+    height:410px;
+    
+}
 /* Contact */
 .input{
     width:60%;
