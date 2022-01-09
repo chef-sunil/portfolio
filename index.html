@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"  media="screen and (max-width:800px)" href="tablet.css">
     <link rel="stylesheet"  media="screen and (max-width:530px)" href="phone.css">
+    <script>
+    let spinnerWrapper = document.querySelector(".spinner-wrapper");
+    window.addEventListener('load',function(){
+        spinnerWrapper.style.display = "none";
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+    })
+</script>
 </head>     
 <body>
     <nav class="navbar">
@@ -107,12 +114,6 @@
 <div class="spinner-wrapper">
     <div class="spinner"></div>
 </div>
-<script>
-    let spinnerWrapper = document.querySelector(".spinner-wrapper");
-    window.addEventListener('load',function(){
-        spinnerWrapper.style.display = "none";
-        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-    })
-</script>
+
 </body>
 </html>
